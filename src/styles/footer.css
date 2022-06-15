@@ -1,0 +1,103 @@
+.footer {
+   width: 100%;
+   height: 478px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container_footer {
+   width: 1170px;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   list-style-type: none;
+   margin-bottom: 10px;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+}
+
+p {
+   margin: 0;
+   padding: 0;
+}
+
+p,
+.company {
+   color: #676A71;
+}
+
+.top_footer_block {
+   display: flex;
+   justify-content: space-between;
+   align-items: top;
+}
+
+.header_block {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   color: #231F20;
+   margin-bottom: 20px;
+}
+
+.footer_mainlogo {
+   margin-bottom: 20px;
+}
+
+.footer_general_information_p {
+   margin-bottom: 40px;
+}
+
+.developer {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   color: #4D4D4F;
+}
+
+.company {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+}
+
+.location {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   color: #A8AAAE;
+}
+
+.href_contacts {
+   font-weight: 500;
+   font-size: 14px;
+   color: #009CB4;
+   text-decoration: underline;
+}
+
+.footer_technical_support_p {
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #EDEDF4;
+}
+
+.bottom_footer_block {
+   margin-top: 40px;
+   border-top: 2px solid #EDEDF4;
+}
+
+.text_bottom_footer_block {
+   margin-top: 20px;
+   font-weight: 500;
+   font-size: 14px;
+   color: #C6C6C6;
+   text-align: center;
+}

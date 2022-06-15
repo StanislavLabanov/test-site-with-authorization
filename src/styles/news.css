@@ -1,0 +1,83 @@
+.registry_news_block {
+   padding: 80px 0;
+   background-color: #fafafa;
+}
+
+.news {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+   grid-gap: 20px;
+}
+
+h2 {
+   font-weight: 700;
+   font-size: 36px;
+   color: #231F20;
+   margin-bottom: 40px;
+}
+
+
+.description_card {
+   font-weight: 500;
+   font-size: 16px;
+   color: #676A71;
+}
+
+.name_card {
+   font-weight: 600;
+   font-size: 18px;
+   color: #231F20;
+}
+
+.data_publication_card {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.data_img {
+   width: 18px;
+   height: 19px;
+   margin-right: 13px;
+}
+
+.data_publication_card {
+   margin: 13px 0;
+}
+
+.data_card {
+   font-weight: 500;
+   font-size: 14px;
+   color: #A8AAAE;
+}
+
+.block_image_card_news {
+   margin: 0;
+   padding: 0;
+}
+
+.image_card_news {
+   margin-left: -30px;
+   display: block;
+   width: 400px;
+   height: 220px;
+}
+
+.card_news {
+   width: 340px;
+   height: 357px;
+
+}
+
+.button_show_all {
+   width: 270px;
+   height: 56px;
+   background: #009CB4;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   margin: 40px auto 0;
+   cursor: pointer;
+}

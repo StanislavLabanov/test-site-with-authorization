@@ -1,0 +1,163 @@
+.login_page {
+   width: 100%;
+   padding: 40px 0 80px 0;
+}
+
+.go_to_main_page a {
+   font-weight: 500;
+   font-size: 18px;
+   color: #676A71;
+}
+
+.go_to_main_page {
+   margin-bottom: 15px;
+}
+
+.autorization_flex_block {
+   display: flex;
+   justify-content: center;
+}
+
+.autorization_block h2 {
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.name_enter {
+   font-weight: 500;
+   font-size: 14px;
+   color: #676A71;
+   margin-top: 20px;
+   margin-bottom: 5px;
+}
+
+.login_page .enter_inpt {
+   width: 390px;
+   height: 56px;
+   background: #F6F6F9;
+   border-radius: 5px;
+   border: none;
+   padding: 0 18px;
+}
+
+.storage_computer_flex_block {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 20px 0;
+}
+
+.storage_computer_flex_block span {
+   font-weight: 500;
+   font-size: 16px;
+   color: #A8AAAE;
+   margin-left: 6px;
+}
+
+.button_entrance {
+   width: 430px;
+   height: 56px;
+   background: #009CB4;
+   border-radius: 5px;
+   font-weight: 700;
+   font-size: 18px;
+   color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   margin-bottom: 20px;
+}
+
+.forgot_password {
+   cursor: pointer;
+   text-align: center;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 22px;
+   letter-spacing: 0.01em;
+   text-decoration-line: underline;
+   color: #009CB4;
+   margin-bottom: 40px;
+}
+
+.new_autorization {
+   width: 410px;
+   height: 59px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0 10px;
+   border: 1px solid #EDEDF4;
+   border-radius: 5px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 19px;
+   text-decoration-line: underline;
+   color: #4D4D4F;
+   cursor: pointer;
+}
+
+#two {
+   margin: 20px 0 40px 0;
+}
+
+.not_accaunt {
+   font-weight: 500;
+   font-size: 16px;
+   text-align: center;
+   color: #4D4D4F;
+   line-height: 150%;
+}
+
+.not_accaunt span {
+   text-decoration-line: underline;
+   color: #009CB4;
+   cursor: pointer;
+   font-weight: 700;
+}
+
+.login_page .enter_inpt:focus {
+   width: 388px;
+   height: 54px;
+   border: 1px solid #009CB4;
+}
+
+
+.login_page .error_inpt {
+   background: #F6F6F9;
+   width: 390px;
+   height: 56px;
+   border: 1px solid #E0371F;
+   border-radius: 5px;
+   border: none;
+   padding: 0 18px;
+}
+
+.login_page .error_inpt:focus {
+   width: 388px;
+   height: 54px;
+   border: 1px solid #E0371F;
+}
+
+.login_page .true_inpt {
+   background: #F6F6F9;
+   width: 390px;
+   height: 56px;
+   border: 1px solid #00B347;
+   border-radius: 5px;
+   border: none;
+   padding: 0 18px;
+}
+
+.login_page .true_inpt:focus {
+   width: 388px;
+   height: 54px;
+   border: 1px solid #00B347;
+}
+
+.err_password {
+   font-weight: 500;
+   font-size: 12px;
+   color: #E0371F;
+}

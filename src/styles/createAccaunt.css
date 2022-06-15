@@ -1,0 +1,73 @@
+.create_inputs input {
+   width: 334px;
+   height: 56px;
+   padding: 0 18px;
+   background: #F6F6F9;
+   border-radius: 5px;
+}
+
+.create_inputs .create_inputs_top_block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 36px;
+}
+
+.create_inputs .one_flex_block {
+   margin-right: 15px;
+}
+
+.create_inputs .two_flex_block {
+   margin-left: 15px;
+}
+
+.create_inputs .passworn_flex_block {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.create_inputs .fl_pass_block_one {
+   margin-right: 15px;
+}
+
+.create_inputs .fl_pass_block_two {
+   margin-left: 15px;
+}
+
+.create_inputs .create_inputs_bottom_block .header_block {
+   text-align: center;
+   padding-top: 36px;
+   margin: 0;
+}
+
+.create_inputs .create_inputs_bottom_block {
+   border-top: 1px solid #EDEDF4;
+}
+
+.create_inputs .button_show_all {
+   width: 270px;
+   height: 56px;
+   background: #009CB4;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   margin: 40px auto 0;
+   cursor: pointer;
+}
+
+.create_inputs input.error_input {
+   width: 332px;
+   height: 54px;
+   border: 1px solid #E0371F;
+}
+
+.registration_true {
+   margin-top: 20px;
+   text-align: center;
+   font-weight: 500;
+   font-size: 16px;
+   color: #00B247;
+}

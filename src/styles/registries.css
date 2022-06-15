@@ -1,0 +1,62 @@
+.registr span {
+   display: block;
+   transform: rotate(90deg);
+   margin-right: 10px;
+}
+
+.registr {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: -25px;
+}
+
+.number_registr {
+   margin-right: 36px;
+}
+
+.class_registr {
+   margin-left: 60px;
+}
+
+.flex_registries_block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+}
+
+.flex_img .one_image {
+   margin-right: 36px;
+}
+
+.registries_block {
+   padding: 80px 0;
+}
+
+.flex_scroll_registries {
+   display: flex;
+}
+
+.flex_scroll_registries div {
+   cursor: pointer;
+   width: 40px;
+   height: 40px;
+   margin: 0 10px;
+   border-radius: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.flex_scroll_registries div.num:hover {
+   background: #009CB4;
+   color: #fff
+}
+
+.scroll_registries {
+   margin-top: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}

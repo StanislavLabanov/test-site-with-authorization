@@ -1,0 +1,46 @@
+.flex_account_block {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+}
+
+.element_nav {
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   width: 270px;
+   height: 56px;
+   border: 1px solid #676A71;
+   border-radius: 5px;
+   font-weight: 500;
+   font-size: 18px;
+   color: #676A71;
+}
+
+.element_nav:hover {
+   color: #009CB4;
+   width: 266px;
+   height: 52px;
+   border: 3px solid #009CB4;
+}
+
+.exit:hover {
+   color: #E0371F;
+   border: 3px solid #E0371F;
+}
+
+.account_bottom_block h2 {
+   padding-top: 36px;
+   margin-top: 36px;
+   border-top: 1px solid;
+}
+
+.hello_block {
+   font-size: 24px;
+   line-height: 33px;
+   color: #231F20;
+}
+
+.personal_account_block {
+   margin: 80px 0;
+}
